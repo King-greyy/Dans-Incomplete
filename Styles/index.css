@@ -1,0 +1,321 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,body {
+    width: 100%;
+    height: 100vh;
+}
+
+.heady {
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: scroll;
+    background-image: url('../Assets/Images/clarissa-carbungco-uy9DJw9e_vs-unsplash.jpg');
+}
+
+.head {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 10px;
+    padding-left: 25px;
+    width: 100%;
+    height: 10%;
+    background-color: rgb(39, 34, 34);
+    font-size: 35px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    border-bottom: 1px solid black;
+}
+
+.head span {
+    color: green;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.head a {
+    text-align: end;
+    align-self: center;
+    font-size: small;
+    background-color: green;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.head i{
+    width: 40px;
+    height: 40px;
+    color: green;
+    animation-duration: 1.3s;
+}
+
+.darkbg {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: rgba(0,0,0,0.4);
+    border: 1px dashed rgb(131, 127, 127);
+    color: white;
+    height: 500px;
+    margin: 30px;
+    margin-top: 35px;
+}
+.darkbg > div{
+
+    width: 20%;
+}
+
+.words {
+    /* display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; */
+    width: 40%;
+    margin:40px ;
+    margin-top: 110px;
+    padding: 5px;
+}
+
+#wo {background-color: white;
+height: 60px; text-align: center;display: flex; align-items: center; justify-content: center;
+color: black;
+margin: 40px;
+border-radius: 3px;
+}
+#wo:hover{
+    background-color: rgba(255, 153, 0, 0.904);
+    color: white;
+    cursor: pointer;
+}
+#resta{
+font-size: xx-large;
+    font-weight: bolder;
+    color: white;
+    margin-bottom: 12px;
+    text-transform: uppercase;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: start;
+}
+#actualText{
+    line-height: 33px;
+    font-size: medium;
+}
+#actualText a{
+    height: 60px;
+    padding: 14px;
+    background-color: rgba(255, 153, 0, 0.904);
+    border-radius: 1px;
+    padding-left: 40px;
+    padding-right: 40px;
+    text-decoration: none;
+    color: white;
+}
+#actualText a:hover{
+    background-color: white;
+    cursor: pointer;
+    color: black;
+
+}
+
+.chest {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    background-attachment: scroll;
+    background-image: url('../Assets/Images/louis-hansel-KQR3ENYfrpw-unsplash.jpg');
+}
+
+.chest img {
+    width: 350px;
+    height: 200px;
+}
+.chest h1 {
+    color: rgba(255, 153, 0, 0.822);
+    margin-bottom: 30px;
+    font-size: 50px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.chest h2 {
+    color: rgba(247, 247, 247, 0.8);
+    justify-content: space-around;
+    margin-top: 4px;
+}
+
+.chest a {
+    color: rgba(255, 153, 0, 0.822);
+    margin-top: 15px;
+    text-decoration: none;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: x-large;
+}
+
+.chest a:hover {
+    color: white;
+}
+
+.chest div:hover img {
+    transform: translateY( -20px);
+    transition-duration: 0.4s;
+}
+
+.left {
+    width: 33.4%;
+    height: 100vh;
+    border-right: 1px dashed rgb(131, 127, 127);
+    /* background-color: yellow; */
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.leftside {
+    margin-bottom:50px ;
+    text-align: center;
+}
+
+#leftb {
+    width: 100px;
+    height:100px;
+    border-top: 1px dotted rgb(168, 165, 165);
+    border-left: 1px dotted rgb(168, 165, 165);
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.center {
+    width: 33.3%;
+    height: 100vh;
+    /* border: 1px dashed rgb(131, 127, 127);
+    background-color: brown; */
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.centerside {
+    margin: auto;
+    margin-bottom: 1px;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    text-align: center;
+}
+
+.centerside p{
+    color: rgba(255, 153, 0, 0.8);
+}
+
+.centerside span {
+    font-size: xx-large;
+    color: rgba(235, 226, 226,0.8);
+}
+
+.right {
+    width: 33.3%;
+    height: 100vh;
+    border-left: 1px dashed rgb(131, 127, 127);
+    /* background-color: aqua; */
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.rightside {
+    margin: auto;
+    text-align: center;
+    padding-top: 35px;
+
+}
+
+#rightb {
+    width: 100px;
+    height:100px;
+    border-bottom: 1px dotted rgb(168, 165, 165);
+    border-right: 1px dotted  rgb(168, 165, 165);
+    align-self: flex-end;
+    margin-right: 25px;
+    margin-bottom: 25px;
+}
+
+#down {
+    margin-top:130px;
+    margin-bottom: 20px;
+}
+
+.foot {
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: scroll;
+    background-image: url('../Assets/Images/roberta-sorge-kp9UVn-PUac-unsplash.jpg');   
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.drkbg {
+    background-color: rgba(0,0,0,0.6);
+    width: inherit;
+    height: inherit;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.Mwords {
+    display: flex;
+    flex-wrap: wrap;
+    line-height: 30px;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+
+}
+
+
+.Mwords h1 {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    font-family:'Times New Roman', Times, serif;
+    text-decoration: solid;
+    margin-bottom: 30px;
+    margin-top: 90px;
+}
+
+.Mwords p {
+    margin: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+    color: rgba(255,255,255,0.7);
+}
+
+.Mwords a {
+    margin-top: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: rgba(255, 153, 0, 0.822);
+    border-radius: 1px;
+    text-decoration: none;
+    color: white;
+}
+.Mwords a:hover{
+    background-color: white;
+    cursor: pointer;
+    color: black;
+}
